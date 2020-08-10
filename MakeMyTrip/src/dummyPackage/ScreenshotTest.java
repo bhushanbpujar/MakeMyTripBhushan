@@ -39,7 +39,7 @@ public class ScreenshotTest implements ITestListener
 	{
 		String methodName = r.getMethod().getMethodName();
 		Date d=new Date();
-		String date = d.toString().replaceAll(" ", "").replaceAll(":", "_");
+		String date = d.toString().replaceAll(" ", "").replaceAll(":", "__");
 		TakesScreenshot t=(TakesScreenshot) Base.driverListener;
 		File src=t.getScreenshotAs(OutputType.FILE);
 		File dst=new File(".\\Screenshot"+methodName+date+".png");

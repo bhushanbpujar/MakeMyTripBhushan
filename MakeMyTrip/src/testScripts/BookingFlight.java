@@ -56,6 +56,5 @@ public class BookingFlight extends Base
 		homepage.getSpicejet().click();
 		homepage.getApplyFilters().click();
 		homepage.getSort().click();
-		System.out.println(driver);
 	}
 }
