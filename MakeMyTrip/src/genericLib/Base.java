@@ -23,7 +23,7 @@ import org.testng.annotations.BeforeMethod;
 public class Base {
 	public FileLib flib=new FileLib();
 	public String excelPath="F:\\TYjava\\AmazonFrameWork\\testData\\Amazon_TestData.xlsx";
-	public String path="C:\\Users\\Laxmi Pujar\\workspace\\MakeMyTrip\\testData\\commonData.properties";
+	public String path="E:\\MakeMyTripBhushan\\MakeMyTrip\\testData\\commonData.properties";
 	public WebDriver driver=null;
 	public static WebDriver driverListener=null;
 	ITestContext context;
